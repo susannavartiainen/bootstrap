@@ -1,104 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-		 <link rel="stylesheet" href="style.css">
-		<title>index.html</title>
-	</head>
-	
-	
-	<body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>index.html</title>
+</head>
 
-		<div class="row">
-			<div class="col-md-12">
-				<p>Leveys 12 yksikköä</p>
-			</div>
-		</div>
+<body>
 
-		<div class="row">
-			<div class="col-md-6">
-				<p>Leveys 6 yksikköä</p>
-			</div>
-			<div class="col-md-6">
-				<p>Leveys 6 yksikköä</p>
-			</div>
-		</div>
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Bootstrapillä vai ilman?</h1>
+    </header>
 
-		<div class="row">
-			<div class="col-md-4">
-				<p>Leveys 4 yksikköä</p>
-			</div>
-			<div class="col-md-8">
-				<p>Leveys 8 yksikköä</p>
-			</div>
-		</div>
+    <section id="reasons-to-use-bootstrap" class="container my-5">
+        <h2 class="mb-4">Kolme syytä käyttää Bootstrapia:</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Responsiivisuus</h5>
+                        <p class="card-text">Bootstrap tarjoaa tehokkaat työkalut responsiiviseen suunnitteluun, varmistaen hyvän käyttäjäkokemuksen eri näyttökoissa.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Valmiit komponentit</h5>
+                        <p class="card-text">Laaja valikoima valmiita komponentteja, kuten navigaatiopalkkeja ja lomakkeita, nopeuttaa kehitystyötä.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Yhteensopivuus</h5>
+                        <p class="card-text">Bootstrap on suunniteltu yhteensopivaksi eri selainten kanssa, vähentäen tarvetta testata ja mukauttaa koodia eri ympäristöissä.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<div class="row">
-			<div class="col-md-3">
-				<p>Leveys 3 yksikköä</p>
-			</div>
-			<div class="col-md-3">
-				<p>Leveys 3 yksikköä</p>
-			</div>
-			<div class="col-md-3">
-				<p>Leveys 3 yksikköä</p>
-			</div>
-			<div class="col-md-3">
-				<p>Leveys 3 yksikköä</p>
-			</div>
-		</div>
+    <section id="reasons-not-to-use-bootstrap" class="container my-5">
+        <h2 class="mb-4">Kolme syytä olla käyttämättä Bootstrapia:</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Ylikuormitus</h5>
+                        <p class="card-text">Pienissä tai yksinkertaisissa projekteissa Bootstrapin käyttö voi hidastaa sivuston latausaikaa tarpeettomasti.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Rajoitettu muokattavuus</h5>
+                        <p class="card-text">Bootstrapin komponenttien muokkaaminen voi olla haasteellista, mikä voi rajoittaa täydellistä räätälöintiä.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Opittava järjestelmä</h5>
+                        <p class="card-text">Bootstrapin oppiminen vie aikaa, ja jos projekti on pieni eikä tarvitse kaikkia sen ominaisuuksia, kevyempi vaihtoehto voi olla tehokkaampi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="judges-opinions" class="container my-5">
+        <h2 class="mb-4">Tuomariston mielipiteet:</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">Kirsi Kiireinen : <span class="text-success">Kannattaa Bootstrapin käyttöä</span></li>
+                    <li class="list-group-item">Ykä Yksilöllinen 👨‍🎨: <span class="text-danger">Ei kannata Bootstrapin käyttöä</span></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">Piia Portfoliosivu 🙋‍♀️: <span class="text-danger">Ei kannata Bootstrapin käyttöä</span></li>
+                    <li class="list-group-item">Pete Perussiisti 👨‍💼: Puolueeton</li>
+                    <li class="list-group-item">Minna Monimutkainensivu 🧙‍: <span class="text-success">Kannattaa Bootstrapin käyttöä</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
+    <section id="final-thoughts" class="container my-5">
+        <p>
+            Bootstrap on tehokas työkalu erityisesti suurille projekteille tai silloin, kun nopea kehitys on tärkeää. Pienemmissä projekteissa tai silloin, kun tarvitaan täydellistä muokattavuutta, ei ole välttämättä järkevää käyttää Bootstrapiä.
+        </p>
+    </section>
 
-
-
-
-		
-
-	<h1>Bootstrapillä vai ilman?</h1>
-
-  	<h2>Kolme syytä käyttää Bootstrapia:</h2>
-<p>
-Responsiivisuus:
-Bootstrap tarjoaa tehokkaat työkalut responsiiviseen suunnitteluun, varmistaen hyvän käyttäjäkokemuksen eri näyttökoissa.
-
-Valmiit komponentit: 
-Laaja valikoima valmiita komponentteja, kuten navigaatiopalkkeja ja lomakkeita, nopeuttaa kehitystyötä.
-
-Yhteensopivuus: 
-Bootstrap on suunniteltu yhteensopivaksi eri selainten kanssa, vähentäen tarvetta testata ja mukauttaa koodia eri ympäristöissä.
-</p>
-		
-<h2>Kolme syytä olla käyttämättä Bootstrapia:</h2>
-
-<p>
-Ylikuormitus: 
-Pienissä tai yksinkertaisissa projekteissa Bootstrapin käyttö voi hidastaa sivuston latausaikaa tarpeettomasti.
-
-Rajoitettu muokattavuus: 
-Bootstrapin komponenttien muokkaaminen voi olla haasteellista, mikä voi rajoittaa täydellistä räätälöintiä.
-
-Opittava järjestelmä: 
-Bootstrapin oppiminen vie aikaa, ja jos projekti on pieni eikä tarvitse kaikkia sen ominaisuuksia, kevyempi vaihtoehto voi olla tehokkaampi.
-</p>
-		
-
-<h2>Tuomariston mielipiteet:</h2>
-
-<p>Kirsi Kiireinen : Kannattaa Bootstrapin käyttöä</p>
-<p>Ykä Yksilöllinen 👨‍🎨: Ei kannata Bootstrapin käyttöä</p>
-<p>Piia Portfoliosivu 🙋‍♀️: Ei kannata Bootstrapin käyttöä</p>
-<p>Pete Perussiisti 👨‍💼: Puolueeton</p>
-<p>Minna Monimutkainensivu 🧙‍: Kannattaa Bootstrapin käyttöä</p>
-		
-<p>
-Bootstrap on tehokas työkalu erityisesti suurille projekteille tai silloin, kun nopea kehitys on tärkeää. Pienemmissä projekteissa tai silloin, kun tarvitaan täydellistä muokattavuutta, ei ole välttämättä järkevää käyttää Bootstrapiä.
-</p>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-	</body>
-
-</html>
+    <footer class="bg-dark text-white text-center py-3">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
